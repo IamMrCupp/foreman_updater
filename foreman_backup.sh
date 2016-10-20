@@ -9,7 +9,7 @@
 #             - These are outlined at https://theforeman.org/manuals/1.13/index.html#5.5.1Backup #
 #                                                                                                #
 #   When:     2016-10-19                                                                         #
-#   Version:  1.1                                                                                #
+#   Version:  1.2                                                                                #
 #                                                                                                #
 ##################################################################################################
 
