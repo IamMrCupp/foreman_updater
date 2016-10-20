@@ -13,3 +13,11 @@
 #                                                                                                #
 ##################################################################################################
 
+# setup the puppetlabs repo for puppet
+
+# setup the foreman repo
+
+# install the foreman installer
+
+# run the installer
+
