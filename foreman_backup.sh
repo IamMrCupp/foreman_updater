@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
 ##################################################################################################
 #                                                                                                #
-#   backup_foreman.sh                                                                            #
+#   What:     backup_foreman.sh                                                                  #
 #                                                                                                #
-#   Simple script for backing up the foreman setup                                               #
-#     Aaron Cupp  <mrcupp@mrcupp.com>                                                            #
+#   Who:      Aaron Cupp  <mrcupp@mrcupp.com>                                                    #
 #                                                                                                #
-#   Purpose:  perform the steps needed to backup the foreman setup before an upgrade.            #
-#               These are outlined at https://theforeman.org/manuals/1.13/index.html#5.5.1Backup #
+#   Purpose:  Perform the steps needed to backup the foreman setup before an upgrade.            #
+#             - These are outlined at https://theforeman.org/manuals/1.13/index.html#5.5.1Backup #
 #                                                                                                #
 #   When:     2016-10-19                                                                         #
 #   Version:  1.1                                                                                #
