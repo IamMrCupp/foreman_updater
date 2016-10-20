@@ -11,13 +11,13 @@ This script has been used in production on [CentOS 6][4] based systems.
 
 ## Installation:
 *  Checkout the repo
-* - git clone
+* * git clone
 *  Allow Execution of the scripts
-* - chmod +x update_foreman.sh foreman_backup.sh foreman_upgrade.sh
+* * chmod +x update_foreman.sh foreman_backup.sh foreman_upgrade.sh
 
 ## Usage:
 *  Run the script!
-* - ./update_foreman.sh
+* * ./update_foreman.sh
 
 ## Want to Help?
 * Fork This Repo
