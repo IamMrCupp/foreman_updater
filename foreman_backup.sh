@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 ##################################################################################################
 #                                                                                                #
-#   What:     backup_foreman.sh                                                                  #
+#   What:     foreman_backup.sh                                                                  #
 #                                                                                                #
 #   Who:      Aaron Cupp  <mrcupp@mrcupp.com>                                                    #
 #                                                                                                #
