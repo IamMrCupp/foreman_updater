@@ -6,7 +6,7 @@
 #   Who:      Aaron Cupp <mrcupp@mrcupp.com>                                                     # 
 #                                                                                                #
 #   Purpose:  perform the steps needed to upgrade the foreman setup                              #
-#             outlined here: https://theforeman.org/manuals/1.13/index.html#3.6Upgrade           #
+#             - outlined here: https://theforeman.org/manuals/1.13/index.html#3.6Upgrade         #
 #   When:     2016-04-22 @ 09:08                                                                 #
 #   Version:  0.1                                                                                #
 #                                                                                                #
