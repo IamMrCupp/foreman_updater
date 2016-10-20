@@ -1,13 +1,13 @@
 # foreman_updater
 
-A set of simple bash shell scripts to update [foreman][1] to the next major release.
+A set of simple bash shell scripts to update :link:[foreman][1] to the next major release.
 
-* **update_foreman.sh**  ->  Script to call the others  :)
+* **update_foreman.sh**  ->  Script to call the others  :smile:
 * **foreman_backup.sh**  ->  Script to perform the backups needed to update foreman
 * **foreman_update.sh**  ->  Script to perform the actual update of foreman
 
-This script assumes that you are using a [redhat][2] derived OS and have the [YUM package manager][3].
-This script has been used in production on [CentOS 6][4] based systems.
+This script assumes that you are using a :link:[redhat][2] derived OS and have the :link:[YUM package manager][3].
+This script has been used in production on :link:[CentOS 6][4] based systems.
 
 ## Installation:
 *  Checkout the repo
