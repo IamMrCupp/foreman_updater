@@ -7,7 +7,7 @@
 #     Aaron Cupp  <mrcupp@mrcupp.com>                                                            #
 #                                                                                                #
 #   Purpose:  perform the steps needed to backup the foreman setup before an upgrade.            #
-#               These are outlined at https://theforeman.org/manuals/1.13/index.html#3.6Upgrade  #
+#               These are outlined at https://theforeman.org/manuals/1.13/index.html#5.5.1Backup #
 #                                                                                                #
 #   When:     2016-10-19                                                                         #
 #   Version:  1.1                                                                                #
