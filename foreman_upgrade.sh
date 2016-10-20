@@ -9,16 +9,18 @@
 #             - outlined here: https://theforeman.org/manuals/1.13/index.html#3.6Upgrade         #
 #                                                                                                #
 #   When:     2016-10-19                                                                         #
-#   Version:  1.1                                                                                #
+#   Version:  1.2                                                                                #
 #                                                                                                #
 ##################################################################################################
 
 PMAPP='/usr/bin/yum'
 FORCE='-y'
 VERSION='1.13'
+OSTYPE='el7'
+ARCH='x86_64'
 
 # ensure the most recent repo is setup
-${PMAPP} ${FORCE} upgrade http://yum.theforeman.org/releases/${VERSION}/el6/x86_64/foreman-release.rpm
+${PMAPP} ${FORCE} upgrade http://yum.theforeman.org/releases/${VERSION}/${OSTYPE}/${ARCH}/foreman-release.rpm
 
 # clean all
 ${PMAPP} clean all
