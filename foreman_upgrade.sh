@@ -13,21 +13,24 @@
 #                                                                                                #
 ##################################################################################################
 
+PMAPP='/usr/bin/yum'
+FORCE='-y'
+VERSION='1.13'
 
 # ensure the most recent repo is setup
-/usr/bin/yum upgrade -y http://yum.theforeman.org/releases/1.11/el6/x86_64/foreman-release.rpm
+${PMAPP} ${FORCE} upgrade http://yum.theforeman.org/releases/${VERSION}/el6/x86_64/foreman-release.rpm
 
 # clean all
-/usr/bin/yum clean all
+${PMAPP} clean all
 
 # ensure that foreman-release-scl is installed;  this is new as a 1.11.x releases
-/usr/bin/yum -y install foreman-release-scl
+${PMAPP} ${FORCE} install foreman-release-scl
 
 # upgrade the scl
-/usr/bin/yum -y upgrade foreman-release-scl
+${PMAPP} ${FORCE} upgrade foreman-release-scl
 
 # upgrade the foreman packages
-/usr/bin/yum -y upgrade tfm\* ruby\* foreman\*
+${PMAPP} ${FORCE} upgrade tfm\* ruby\* foreman\*
 
 # perform the rake jobs to clean up and migrate things
 /usr/sbin/foreman-rake db:migrate
