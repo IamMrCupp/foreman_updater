@@ -8,7 +8,7 @@
 #   Purpose:  perform the steps needed to upgrade the foreman setup                              #
 #             - outlined here: https://theforeman.org/manuals/1.13/index.html#3.6Upgrade         #
 #                                                                                                #
-#   When:     2016-10-19                                                                         #
+#   When:     2016-10-20                                                                         #
 #   Version:  1.2                                                                                #
 #                                                                                                #
 ##################################################################################################

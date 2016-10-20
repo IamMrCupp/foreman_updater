@@ -8,7 +8,7 @@
 #   Purpose:  Perform the steps needed to backup the foreman setup before an upgrade.            #
 #             - These are outlined at https://theforeman.org/manuals/1.13/index.html#5.5.1Backup #
 #                                                                                                #
-#   When:     2016-10-19                                                                         #
+#   When:     2016-10-20                                                                         #
 #   Version:  1.2                                                                                #
 #                                                                                                #
 ##################################################################################################

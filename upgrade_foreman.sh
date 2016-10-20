@@ -7,8 +7,8 @@
 #                                                                                                #
 #   Purpose:  run the two scripts and update foreman to the newest version                       #
 #                                                                                                #
-#   When:     2016-10-19                                                                         #
-#   Version:  1.1                                                                                #
+#   When:     2016-10-20                                                                         #
+#   Version:  1.2                                                                                #
 #                                                                                                #
 ##################################################################################################
 
